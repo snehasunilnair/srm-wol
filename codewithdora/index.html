@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>CodewithDora!</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Neuton&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Handlee&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="row clearfix">
+                <img src="images/logoo.png " class="logo">
+                <ul class= "main-nav animated slideInDown" id="check">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Log In</a></li>
+                    <li><a href="#">Sign Up</a></li>
+
+                </ul>
+                <a href="#" class="icon"  onclick="slideshow()">
+                    <i class="fa fa-bars"></i></a>
+            </div>
+        </nav>
+<div class ="main-content-header">
+        <h1>Welcome to <span class="colorchange">Code with Dora!</span></h1>
+            <h2>Let's make you a <span class="colorchange">STAR</span> at programming</h2><br>
+            <h5>Front end: HTML,CSS,React...<br>Back end : Ruby,PHP,Java...</h5>
+            <h4>We cover everything from scratch!</h4><br>
+            <h3>Lifetime access<br>Learn on your schedule<br>Around 4000+ courses</h3>
+            <a href="#" class="btn btn-full">Sign up for free</a>
+            <a href="#" class="btn btn-nav">Show me more</a>
+            </div>
+    </header>
+
+    
+<script type="text/javascript">
+    function slideshow(){
+        var x=document.getElementById('check');
+        if(x.style.display==="none"){
+            x.style.display="block";
+        }
+
+        else{
+          x.style.display="none"  ;
+        }
+
+    }
+</script>
+</body>
+</html>

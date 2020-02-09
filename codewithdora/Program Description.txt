@@ -1,0 +1,45 @@
+// A brief description about my program...
+
+So as you can see,I have created a website called "Code with Dora". Dora has been a popular figure from our childhood.
+She taught us many new things and  we also learned to be curious like her . That is the reason for my choosing of "Dora" as the character for this website. Due to her popularity,
+she is sure to bring aspiring developers and beginners to the website. Dora will ensure that you become a pro at coding at the end of it.
+
+Below i will be briefly explaining on my method of designing.
+First i created a folder in my desktop with the name codewithdora. inside that i created a file for css and another for storing images.also i created a html file with the name index.html
+I used the VS code editor. note the images were pre-downloaded.
+
+in vs code,
+first i typed the usual html structure. the title was given as "codewithdora" .
+then inside the header tag i specified the class  header logo and  header contents. the logo was called by specifying the foldername" images"/image-name.
+then a list was created inside <ul> for the header contents
+after that i made a h1 tag followed by h2,h3,h4 and h5 tags for the contents.(br tag used for break). a span tag was also given.
+then i wrote the code for the button creation "sign up for free" and "show me more"
+
+then we go to the css file for further styling. filename" style.css" . in html created a link which connects the css file.
+inital margin and padding was set to 0px
+then default body specification was given.
+then the header styling was specified. made use of the properties like margin,padding,text decoration and float to allign and beautify the contents.
+this was followed by styling of the contents. made use of properties like padding, margin,list style,display properties. the clearfix property was used(it automatically clears the child elements)
+translate property was used to allign tht text along to the axis say x and y. border properties were also used.
+the we style the contents more specifically, different fonts,colors ,spacing,etc
+(the sizes are adjusted by the hit and trial method)
+after this we come to the button property, add colors ,spacing and also the hover property.
+span tag is used for color change properties. i used keyframes for transition effetcs.
+animations were made by the application of animantion.css
+then responsive queries were created so that the website opens well with all devices,say phone,ipad,tablet etc [width was setup]
+at 768px, i dont want the header contents to be displayed ,so i created a bar icon using font awesome [for mobile pages its useful]
+i also made a thing that whenever a user presses the bar icon, the header contents will be displayed.
+
+this is where we incorporate javascript. before the ending of the body tag in html, i have included this.
+then we had the meta tag which says that the width we use should work for all devices
+that is the gist of my coding. The colors and fonts were made after trial method.
+Thus presenting you a simple project of mine :)
+
+Thank you.
+Sneha Sunil
+
+
+
+
+
+
